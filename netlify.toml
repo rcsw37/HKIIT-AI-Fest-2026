@@ -1,0 +1,9 @@
+[build]
+  base = "hkiit-ai-media-festival"
+  command = "cd client && npm install && npm run build"
+  publish = "client/dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  NPM_FLAGS = "--include=dev"
+
